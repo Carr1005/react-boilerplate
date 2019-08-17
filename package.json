@@ -1,0 +1,30 @@
+{
+  "name": "collage",
+  "version": "1.0.0",
+  "description": "This little gadget briefly shows the  pattern  that I've been adapting when developing in React ecosystem .",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "classnames": "2.2.6",
+    "html2canvas": "1.0.0-alpha.12",
+    "lodash": "4.17.11",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-draggable": "3.2.1",
+    "react-redux": "6.0.1",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.0.3",
+    "redux": "4.0.1",
+    "redux-actions": "2.6.5",
+    "redux-saga": "1.0.2",
+    "reselect": "4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}

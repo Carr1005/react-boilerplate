@@ -1,0 +1,30 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+:root {
+  --canvas-z-index: -1;
+  --footer-decoration-component-z-index: 1;
+  --footer-component-z-index: 2;
+  --button-wrapper-z-index: 3;
+  --footer-component-height: 70px;
+}

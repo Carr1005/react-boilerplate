@@ -1,0 +1,67 @@
+@import "styles.css";
+
+.main-panel {
+  height: calc(100vh - var(--footer-component-height));
+  width: 100%;
+}
+
+.footer-component {
+  position: fixed;
+  height: 70px;
+  width: 100vw;
+  border-top: 2px solid #e0e0e0;
+  bottom: 0;
+  background: white;
+  z-index: var(--footer-component-z-index);
+}
+
+.footer-decoration-component {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  bottom: 0;
+  margin: 0 auto 50px;
+  left: 0;
+  right: 0;
+  background: white;
+  border-top-left-radius: 52px;
+  border-top-right-radius: 52px;
+  border-bottom: 0;
+  border: 2px solid #e0e0e0;
+  z-index: var(--footer-decoration-component-z-index);
+}
+
+.button-wrapper {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  margin: 0 auto 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  border-top-left-radius: 52px;
+  border-top-right-radius: 52px;
+  border-bottom: 0;
+  z-index: var(--button-wrapper-z-index);
+}
+
+.button-wrapper > * {
+  margin: 10px auto;
+}
+
+.button-wrapper-2 {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  margin-bottom: 20px;
+  z-index: var(--button-wrapper-z-index);
+}
+
+.button-wrapper-3 {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  margin-bottom: 20px;
+  z-index: var(--button-wrapper-z-index);
+}

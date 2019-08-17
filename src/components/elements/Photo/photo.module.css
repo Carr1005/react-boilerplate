@@ -1,0 +1,15 @@
+.box {
+  position: absolute;
+  cursor: grab;
+}
+
+.box:active {
+  position: absolute;
+  cursor: grabbing;
+}
+
+img {
+  max-height: 200px;
+  max-width: 200px;
+  pointer-events: none;
+}

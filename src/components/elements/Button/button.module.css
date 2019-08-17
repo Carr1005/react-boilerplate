@@ -1,0 +1,44 @@
+input[type="file"] {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.add {
+  background-color: #4fc3c6;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.add:hover {
+  background-color: #5acbcf;
+}
+
+.add:active {
+  background-color: #43a3a7;
+}
+
+.camera {
+  background-color: #a79dcf;
+  border-radius: 50%;
+}
+
+.shuffle {
+  background-color: #a79dcf;
+  border-radius: 25%;
+}
+
+.children {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
